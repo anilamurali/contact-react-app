@@ -1,4 +1,5 @@
 import React from 'react';
+import Nav from './Nav';
 
 const Register = () => {
     const inputStyle={
@@ -10,6 +11,7 @@ const Register = () => {
     <div>
         <div class="container">
     <div class="row">
+        <Nav/>
         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
