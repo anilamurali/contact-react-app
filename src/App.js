@@ -6,6 +6,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Nav from './Components/Nav';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Login from './Components/Login';
+import Addcontact from './Components/Addcontact';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route/>
         <Route path='/' element={<Login/>}/>
         <Route path='/register' element={<Register/>}/>
+        <Route path='/Addcontact' element={<Addcontact/>}/>
       </Routes>
       </BrowserRouter>
      
