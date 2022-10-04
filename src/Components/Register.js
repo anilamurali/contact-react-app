@@ -32,18 +32,42 @@ const Register = () => {
                             color:"rgb(11, 16, 87)"
                             }}>
                             <b>REGISTER HERE</b></h3><br/>
-                        <input style={inputStyle} type="text" class="form-control" placeholder="Enter Your Name" /><br/>
-                        <input style={inputStyle} type="text" class="form-control" placeholder="Enter Email"/><br/>
-                        <input style={inputStyle} type="text" class="form-control" placeholder="Mobile number"/><br/>
-                        <input style={inputStyle} type="text" class="form-control" placeholder="Password"/><br/>
-                        <input style={inputStyle} type="text" class="form-control" placeholder="Confirm Password"/><br/>
+                        <input style={inputStyle} 
+                        type="text" 
+                        class="form-control" 
+                        placeholder="Enter Your Name" /><br/>
+
+                        <input style={inputStyle} 
+                        type="text" 
+                        class="form-control" 
+                        placeholder="Enter Email"/><br/>
+
+                        <input style={inputStyle} 
+                        type="text" 
+                        class="form-control" 
+                        placeholder="Mobile number"/><br/>
+
+                        <input 
+                        style={inputStyle} 
+                        type="text" 
+                        class="form-control" 
+                        placeholder="Password"/><br/>
+
+                        <input 
+                        style={inputStyle} 
+                        type="text" 
+                        class="form-control" 
+                        placeholder="Confirm Password"/><br/>
+
                         <button className='btn btn-primary' 
                         style={{
                             margin:"auto",
                             display:"block"
                         }}>Register</button><br/>
-                         <Link to='/'><p style={{textAlign:"center",
-                            color:"rgb(11, 16, 87)"}}>Already have an account?</p></Link>
+
+                         <Link to='/'>
+                        <p style={{textAlign:"center",color:"rgb(11, 16, 87)"}}>
+                                Already have an account?</p></Link>
                     </form>
                 </div>
             </div>
