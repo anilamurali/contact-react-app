@@ -1,5 +1,5 @@
-import React from 'react'
-import Navbar from './Navbar'
+import React from 'react';
+import Navbar from './Navbar';
 
 const Addcontact = () => {
     const inputStyle={
@@ -24,12 +24,7 @@ const Addcontact = () => {
                     margin:"auto",
                     height:"100%"}}>
                         <br/>
-                        <h3 
-                        style={{
-                            textAlign:"center",
-                            color:"rgb(11, 16, 87)"
-                            }}>
-                            <b>REGISTER HERE</b></h3><br/>
+                        <br/>
                         <input style={inputStyle} 
                         type="text" 
                         class="form-control" 
