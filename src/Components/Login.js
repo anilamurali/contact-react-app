@@ -42,26 +42,31 @@ const Log=()=>{
                     width:"50%",
                     margin:"auto",
                     height:"100%"}} >
+                        <br/>
 <div class="container">
     <div class="row">
         <div class="col col-lg-12 col-xl-12 col-xxl-12">
             <div class="row g-2">
                 <div class="col -lg-12 col-xl-12 col-xxl-12">
+                   
                    <h1 style={{
                             textAlign:"center",
                             color:"rgb(11, 16, 87)"
                             }}><b>LOGIN HERE</b></h1><br/>
                     <input type="text" placeholder='Email' value={email} style={inputStyle}  onChange={(event)=>{setEmail(event.target.value)}} class="form-control"/>
-                </div><br/>
+                    <br/>
+                </div>
                 <div class="col col-lg-12 col-xl-12 col-xxl-12">
                     
                     <input type="text" placeholder='Password' value={password} style={inputStyle}  onChange={(event)=>{setPassword(event.target.value)}}  class="form-control"/>
-                </div><br/>
+                    <br/>
+                </div>
                 
                
                 <div class="col col-lg-12 col-xl-12 col-xxl-12">
               
                 <button type="button" style={{margin:"auto",display:"block"}} onClick={login} class="btn btn-primary">Login</button>
+                <br/>
 
                 </div>
             </div>

@@ -7,6 +7,7 @@ import Nav from './Components/Nav';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Login from './Components/Login';
 import Addcontact from './Components/Addcontact';
+import Viewcontact from './Components/Viewcontact';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/' element={<Login/>}/>
         <Route path='/register' element={<Register/>}/>
         <Route path='/Addcontact' element={<Addcontact/>}/>
+        <Route path='/Viewcontact' element={<Viewcontact/>}/>
       </Routes>
       </BrowserRouter>
      
