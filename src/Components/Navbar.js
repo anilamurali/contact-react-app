@@ -18,7 +18,7 @@ const Navbar = () => {
         <Link class="nav-link" style={{color:"white"}} to='/Addcontact'>Add Contacts</Link>
       </li>
       <li class="nav-item">
-        <Link class="nav-link" >Pricing</Link>
+        <Link class="nav-link" to={'/Viewcontact'} >View Contact</Link>
       </li>
       <li class="nav-item">
         <Link class="nav-link disabled" href="#">Disabled</Link>
